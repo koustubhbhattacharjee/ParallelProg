@@ -1,0 +1,24 @@
+.FIFO
+
+Mutual exclusion in adding and removing
+Producer shouldn't add data when its full
+Consumer shouldn't remove data when there is none
+
+"threadsafe"
+
+"Unbounded" Queue: hypothetical queues
+Bursts of data can help the Consumer
+Average rate of consumption should be higher than average rate of production.
+
+Pipeline
+global_interpreter_lock: IF ACTUALLY CPU is being used instead of the "time function", then threading breaks down
+
+
+
+
+Threads are needed for I/O intensive work
+Processes are needed for CPU bound work
+
+mutex has more than 1 threads simultaneously accessing it.
+Semaphore has more than 1 threads simultaneously accessing it.
+
